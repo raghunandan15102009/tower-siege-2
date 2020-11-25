@@ -91,3 +91,9 @@ function mouseDragged(){
 function mouseReleased(){
   slingShot.fly();
 }
+ 
+function keyPressed(){
+ if(keyDown("space")){
+     slingShot.attach(polygon.body);
+  }
+}
